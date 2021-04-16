@@ -6,9 +6,9 @@
         :stroke-width="36"
         :percentage="15"></el-progress>
     </div>
-    <!-- <router-view/> -->
-        <el-divider></el-divider>
-
+    <router-view/>
+        <!-- <el-divider></el-divider> -->
+<!-- 
     <el-container>
       <el-aside width="200px">Aside</el-aside>
       <el-container>
@@ -94,7 +94,7 @@
       </el-container>
     </el-container>
 
-    <!-- <img src="./assets/logo.png"> -->
+    <img src="./assets/logo.png"> -->
   </div>
 </template>
 
@@ -114,7 +114,7 @@ export default {
 </script>
 
 <style>
-.el-header {
+/* .el-header {
   background-color: #b3c0d1;
   color: #333;
   line-height: 60px;
@@ -156,5 +156,5 @@ body > .el-container {
 
 .el-container:nth-child(7) .el-aside {
   line-height: 320px;
-}
+} */
 </style>
