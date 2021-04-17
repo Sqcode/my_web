@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div style="margin: 50px 200px">
-      <el-progress
+      <!-- <el-progress
         :text-inside="true"
         :stroke-width="36"
-        :percentage="15"></el-progress>
+        :percentage="15"></el-progress> -->
     </div>
     <router-view/>
         <!-- <el-divider></el-divider> -->
